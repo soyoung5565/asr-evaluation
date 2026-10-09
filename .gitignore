@@ -1,0 +1,28 @@
+# 环境与大数据（不入库）
+venv/
+hf_cache/
+models/
+logs/
+_probe/
+_skills_raw/
+*.log
+
+# 语料数据（体积大，获取方式见 README）
+corpus/nsc_*/
+corpus/nsc_part1_*.parquet
+corpus/cv26_enmy*/
+corpus/revolab/
+corpus/revolab_wav/
+corpus/seame/
+
+# Python
+__pycache__/
+*.pyc
+
+# 流程标记文件
+eval/ALL_DONE
+eval/WHISPER_LV3_FIXED_DONE
+
+# 系统
+.DS_Store
+Thumbs.db
